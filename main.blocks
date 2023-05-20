@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="9)WM[:I}!1oB1yw.c{y6" x="0" y="0"><statement name="HANDLER"><block type="startHB" id="F^YSya7lcSE~N*6SS%CG"><next><block type="radio_set_group" id="BP/ew)wtMz)FM^[i[Q;^"><value name="ID"><shadow type="math_number_minmax" id="UM[I-~j|CI|=3=o$j$3f"><mutation min="0" max="255" label="Id" precision="0"></mutation><field name="SLIDER">12</field></shadow></value></block></next></block></statement></block><block type="device_gesture_event" id="1Xc*OXai?3YizynVE9PG" x="304" y="11"><field name="NAME">Gesture.ScreenUp</field><statement name="HANDLER"><block type="radio_datagram_send_string" id="hOpU]H7ln2__0A|tvbN1"><value name="msg"><shadow type="text" id=")H%jL/l`_?m%J{/+Xy(#"><field name="TEXT">F</field></shadow></value><next><block type="device_show_leds" id="a-1.tPPf5p/$U}-j;jXy"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        # # # # # 
+        . . # . . 
+        . . # . .
+        `</field></block></next></block></statement></block><block type="device_button_event" id="BF~Q${w@%eBK8Zp$C$g+" x="18" y="186"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="radio_datagram_send_string" id="OVGMGxW~sW@fpomPp{p)"><value name="msg"><shadow type="text" id="a5ABU%%|!~^GJ{rFqg6K"><field name="TEXT">L</field></shadow></value><next><block type="device_show_leds" id="QlCvGrJDmF@,Ln9CTpD%"><field name="LEDS">`
+        . . # . # 
+        . # # . . 
+        # # # # # 
+        . # # . . 
+        . . # . .
+        `</field></block></next></block></statement></block><block type="device_button_event" id="XXu,u6WwP6wd$p|3tn{T" x="596" y="164"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="radio_datagram_send_string" id="mCJ]+;Z1tSbO9SgX4oZS"><value name="msg"><shadow type="text" id=")e_$;^9UB4txxH.*Y/^e"><field name="TEXT">R</field></shadow></value><next><block type="device_show_leds" id="m=j=^N}JhAF{c]%QYYTK"><field name="LEDS">`
+        . . # . . 
+        . . # # . 
+        # # # # # 
+        . . # # . 
+        . . # . .
+        `</field></block></next></block></statement></block><block type="device_gesture_event" id="SA|EbQ2;R8XL,y%={~3;" x="327" y="381"><field name="NAME">Gesture.ScreenDown</field><statement name="HANDLER"><block type="radio_datagram_send_string" id="X%^+VMvs(Zp8lkl?/xk]"><value name="msg"><shadow type="text" id=",~)K3k}Y55C|V}q_R5do"><field name="TEXT">B</field></shadow></value><next><block type="device_show_leds" id="xfz1!:~nKGm[PuqQ|0$0"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        # # # # # 
+        . # # # . 
+        . . # . .
+        `</field></block></next></block></statement></block></xml>
